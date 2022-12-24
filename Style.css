@@ -1,0 +1,278 @@
+*{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+  
+}
+nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 15% 70% 5% 10%;
+    background-color: rgb(255, 255, 255)
+    
+}
+nav:hover{
+    box-shadow: 1px 1px 15px #111;
+    height: 41px;
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.Inicio-nav-list{
+    list-style: none;
+    font-size: 16pt;
+}
+nav ul li:hover{
+    color: #111;
+    font-size: 17pt;
+    transition: all 300ms ;
+}
+.bars{
+    display: none;
+}
+.Inicio-menu-bars{
+    display: none;
+    
+}
+main{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Inicio-Portada-Principal{
+    width: 100%;
+   height: 80vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./img/pexels-alex-fu-2967770.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: opacity(40%);
+    backdrop-filter: contrast(40%);
+    
+}
+.Inicio-Portada-Principal-Text{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.Inicio-Portada-Principal-Text h1{
+    font-size: 45pt;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1.0000000);
+}
+.Inicio-Portada-Principal-Text p{
+    font-size: 21pt;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1.0000000);
+}
+.Inicio-Objetivos{
+    width: 80%;
+    min-height: 50vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.Inicio-Objetivos h3{
+    margin: 5px;
+    font-size: 21pt;
+    font-weight: 700;
+}
+.Inicio-Objetivos p{
+   font-size: 14pt;
+}
+.Inicio-Reciclamos{
+    width: 80%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.Inicio-Reciclamos h3{
+    font-size: 21pt;
+    color: #333;
+}
+.Inicio-Reciclados-Container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Inicio-Reciclados-Container h4{
+    font-size: 16pt;
+    color: #333;
+}
+.Inicio-Reciclados-Container img{
+    width: 200px;
+    height: 200px;
+}
+.Inicio-Reciclados-Pregunta{
+    width: 80%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    color: #333;
+}
+.Inicio-Reciclados-Pregunta h4{
+    font-size: 21pt;
+}
+.Inicio-Reciclados-Pregunta p{
+    font-size: 16pt;
+}
+.Inicio-Reciclados-Pregunta b {
+    font-size: 16pt;
+}
+.Inicio-Reciclados-Preguntas-Contacto{
+    width: 100%;
+    border: 1px solid green;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1.0000000);
+}
+.Inicio-Reciclado-Footers{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.Inicio-Reciclado-Footers li{
+    list-style: none;
+    font-size: 14pt;
+}
+.Conocenos-Reciclados-Container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+.Conocenos-Reciclados-Container div{
+    margin: 5px;
+}
+.Conocenos-Reciclamos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.Conocenos-Reciclamos h3{
+    font-size: 21pt;
+    color: #333;
+    padding: 10px;
+}
+.Inicio-Objetivos img{
+    width: 200px;
+    height: 200px;
+}
+.Inicio-Objetivos h1{
+    font-size: 21pt;
+}
+.Inicio-Objetivos h2{
+    font-size: 21pt;
+}
+.contacto-Horario{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.contacto-Horario li{
+    list-style: none;
+    font-size: 16pt;
+}
+@media (max-width: 600px){
+    .Inicio-nav-list li{
+       display: none;
+    }
+    .nav1{
+        position: fixed;
+        z-index: 3;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .nav1 li{
+        display: block;
+        color: #fff;
+    }
+    .bars{
+        display: block;
+        z-index: 998;
+        position: fixed;
+        top: 1px;
+        right: 1px;
+        
+    }
+    .Inicio-menu-bars{
+        display: absolute;
+        
+        flex-direction: column;
+        z-index: 1;
+        transform: translateX(0);
+        transform: translatey(10px);
+        background-color: red;
+        height: 100px;
+    }
+    .Conocenos-Reciclados-Container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .Inicio-Reciclados-Container{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .Inicio-Reciclados-Container div{
+        margin: 5px;
+    }
+    .Inicio-Reciclado-Footers{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+}
